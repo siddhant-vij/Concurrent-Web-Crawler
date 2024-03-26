@@ -17,11 +17,7 @@ public class WebCrawlUtils {
         links.forEach(link -> {
           String absUrl = link.attr("abs:href");
           try {
-            if (taskSubmitter != null) {
-              taskSubmitter.accept(absUrl, depth + 1);
-            } else {
-              fetchAndParse(absUrl, depth + 1, maxDepth, null);
-            }
+            taskSubmitter.accept(absUrl, depth + 1);
           } catch (Exception e) {
           }
         });

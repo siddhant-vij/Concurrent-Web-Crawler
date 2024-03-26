@@ -19,3 +19,9 @@ public class Main {
 // Single-threaded Time: 135787ms
 // MT Crawling finished. Total URLs crawled: 250
 // Multi-threaded Time: 21376ms
+
+// For MAX_URLS = 250
+// ST Crawling finished. Total URLs crawled:250
+// Single-threaded Time: 88173ms
+// MT Crawling finished. Total URLs crawled:250
+// Multi-threaded Time: 19340ms
